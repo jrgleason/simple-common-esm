@@ -4,8 +4,9 @@
   "description": "This is a simple project to demo ESM w/ CommonJS",
   "main": "src/index.mjs",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack && webpack --config webpack.config.umd.js",
     "start": "node test/es6.mjs",
+    "start:umd": "node test/umd.cjs",
     "start:old": "node test/es5.cjs"
   },
   "repository": {
