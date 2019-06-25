@@ -1,0 +1,28 @@
+{
+  "name": "@jrg/sce",
+  "version": "0.0.1",
+  "description": "This is a simple project to demo ESM w/ CommonJS",
+  "main": "src/index.mjs",
+  "scripts": {
+    "build": "webpack",
+    "start": "node test/es6.mjs",
+    "start:old": "node test/es5.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrgleason/simple-common-esm.git"
+  },
+  "author": "Jackie Gleason",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/jrgleason/simple-common-esm/issues"
+  },
+  "homepage": "https://github.com/jrgleason/simple-common-esm#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  }
+}
