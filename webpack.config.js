@@ -1,13 +1,14 @@
 const path = require('path');
 module.exports = {
-  entry: path.resolve(__dirname, 'lib/index.mjs'),
+  entry: path.resolve(__dirname, 'src/index.mjs'),
   output: {
-      filename: 'jwt-decode.js'
+      filename: 'sce.cjs',
+      libraryTarget: 'commonjs'
   },
   module: {
       rules: [
           {
-              test: /\.js$/,
+              test: /\.mjs$/,
               exclude: /(node_modules|bower_components)/,
               use: {
                   loader: 'babel-loader',
