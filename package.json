@@ -1,6 +1,6 @@
 {
   "name": "@jrg/sce",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This is a simple project to demo ESM w/ CommonJS",
   "main": "src/index.mjs",
   "scripts": {
